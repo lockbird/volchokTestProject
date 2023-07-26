@@ -45,5 +45,6 @@ public class testAuthorization {
     @Test
     void validRegistration () {
         Configuration.timeout = 5000;
+        open("https://concepture.club"
     }
 }
