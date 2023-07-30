@@ -41,11 +41,4 @@ public class testAuthorization {
         $("[name=signup-button]").click();
         $("#login-form").shouldHave(text("Неправильный логин или пароль."));
     }
-
-    @Test
-    void validRegistration () {
-        open("https://demoqa.com/text-box");
-        Configuration.timeout = 1000000;
-        $("#userName").setValue("Artem Chaporgin");
-    }
 }
